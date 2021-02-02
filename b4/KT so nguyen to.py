@@ -1,5 +1,6 @@
 n = int(input("nhap n: "))
 snt = True
+#kiem tra snt
 if n < 2:
     snt = False
 else:
@@ -11,6 +12,7 @@ else:
             snt=False
             break;
         i = i+1
+#neu snt = true
 if snt == True:
     print(n ,'la so nguyen to')
 else:
