@@ -24,6 +24,6 @@ tong = 0
 for hs in ListHS:
     tong = hs['Toan'] + hs['Viet']
     if tong > 10:
-        print("Thong Tin HS co tong diem > 10: ",hs['SBD'],hs['Ten'],hs['Toan'],hs['Viet'],tong)
+        print("tong hon 10",hs)
     if hs['Toan'] == 0 or hs['Viet'] == 0:
-        print("Thong Tin HS diem liet: ",hs['SBD'],hs['Ten'],hs['Toan'],hs['Viet'],tong)
+        print("diem liet",hs)
