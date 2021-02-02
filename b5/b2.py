@@ -1,13 +1,13 @@
 n = int(input("ban muon nhap bao nhieu sinh vien: "))
-L = []
+l = []
 for i in range(n):
-    msv = input("nhap msv: ")
-    ten = input("nhap ten: ")
-    lop = input("nahp lop: ")
-    L.append({
-        "msv": msv,
-        "ten": ten,
-        "lop": lop,
+    msv = int(input("nhap msv:" ))
+    ten = str(input("nhap ten: "))
+    lop = int(input("nhap lop: "))
+    l.append({
+        "MSV":msv,
+        "Ten":ten,
+        "Lop":lop,
     })
-for j in L:
-    print("thong tin SV: ",j)
+for j in l:
+    print(j)
