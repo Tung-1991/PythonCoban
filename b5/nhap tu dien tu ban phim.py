@@ -8,7 +8,7 @@ while kt != "k":
     else:
         k = str(input("nhap Key: "))
         v = str(input("nhap Value: "))
-        d={k:v}
+        D[k]=v
 print("tu dien",d)
 
 
